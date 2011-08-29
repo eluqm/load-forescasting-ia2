@@ -22,7 +22,9 @@ SOURCES += main.cpp\
     layer.cpp \
     network.cpp \
     utiles.cpp \
-    data.cpp
+    data.cpp \
+    cromosome.cpp \
+    population.cpp
 
 HEADERS  += interfaze.h \
     plottab.h \
@@ -31,7 +33,9 @@ HEADERS  += interfaze.h \
     layer.h \
     network.h \
     utiles.h \
-    data.h
+    data.h \
+    cromosome.h \
+    population.h
 
 FORMS    += interfaze.ui \
     plottab.ui
